@@ -1,4 +1,4 @@
-import { CheckCircle, Lock } from "lucide-react";
+import { CheckCircle, Lock, ExternalLink, ArrowRight } from "lucide-react";
 
 const items = [
   "Maximale hypotheek op basis van Nibud 2026",
@@ -37,16 +37,39 @@ export default function CTASection() {
           ))}
         </div>
 
+        {/* Primary CTA */}
         <button
-          className="px-12 py-5 rounded-2xl text-white font-bold text-xl transition-all hover:opacity-90 hover:shadow-2xl hover:-translate-y-1 mb-4"
+          className="px-12 py-5 rounded-2xl text-white font-bold text-xl transition-all hover:opacity-90 hover:shadow-2xl hover:-translate-y-1 mb-6"
           style={{ backgroundColor: "#99248F" }}
         >
           Bereken mijn hypotheek →
         </button>
 
-        <div className="flex items-center justify-center gap-2 text-blue-300 text-sm" style={{ opacity: 0.7 }}>
+        {/* Saldo.biz referral */}
+        <div
+          className="max-w-lg mx-auto rounded-2xl p-6 border"
+          style={{ backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(201,107,195,0.3)" }}
+        >
+          <p className="text-white font-bold text-lg mb-2">Meer weten of persoonlijk advies?</p>
+          <p className="text-blue-200 text-sm mb-4" style={{ opacity: 0.7 }}>
+            Voor een volledig hypotheekadvies op maat — helemaal afgestemd op jouw situatie — kun je terecht bij Saldo. Zij helpen je van A tot Z met je hypotheek.
+          </p>
+          <a
+            href="https://saldo.biz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-white font-semibold transition-all hover:opacity-90 hover:shadow-lg"
+            style={{ backgroundColor: "#3094C6" }}
+          >
+            <ExternalLink size={16} />
+            Ga naar Saldo.biz
+            <ArrowRight size={16} />
+          </a>
+        </div>
+
+        <div className="flex items-center justify-center gap-2 text-blue-300 text-sm mt-6" style={{ opacity: 0.7 }}>
           <Lock size={14} />
-          <span>100% gratis · Geen verborgen kosten · Geen adviseur nodig</span>
+          <span>100% gratis · Geen verborgen kosten · Indicatieve berekening</span>
         </div>
       </div>
     </section>

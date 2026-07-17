@@ -531,13 +531,24 @@ export default function CombinedCalculator() {
             </div>
 
             {/* CTA */}
-            <button
-              className="w-full py-4 rounded-2xl text-white font-bold text-lg transition-all hover:opacity-90 hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2"
-              style={{ backgroundColor: "#99248F" }}
-            >
-              <Home size={20} />
-              Volledig rapport downloaden (gratis) →
-            </button>
+            <div className="space-y-4">
+              <button
+                className="w-full py-4 rounded-2xl text-white font-bold text-lg transition-all hover:opacity-90 hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2"
+                style={{ backgroundColor: "#99248F" }}
+              >
+                <Home size={20} />
+                Volledig rapport downloaden (gratis) →
+              </button>
+              <a
+                href="https://saldo.biz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 rounded-2xl font-semibold text-sm transition-all hover:shadow-lg flex items-center justify-center gap-2 border"
+                style={{ color: "#3094C6", borderColor: "#c3dff5", backgroundColor: "#f0f7ff" }}
+              >
+                Persoonlijk hypotheekadvies nodig? Ga naar Saldo.biz →
+              </a>
+            </div>
           </div>
         </div>
       </div>
