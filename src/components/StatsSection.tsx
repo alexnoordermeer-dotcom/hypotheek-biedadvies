@@ -1,7 +1,7 @@
 const stats = [
-  { value: "€375.000+", label: "Gemiddelde overwaarde van een 65-plusser in Nederland", color: "#99248F" },
-  { value: "58%", label: "Van alle 65-plussers woont in een koopwoning", color: "#3094C6" },
-  { value: "290.000", label: "Tekort aan seniorenwoningen — wie nu wacht, heeft straks nog minder keuze", color: "#619C30" },
+  { value: "€ 450.000", label: "Gemiddelde woningprijs in Nederland in 2025", color: "#99248F" },
+  { value: "74%", label: "Van de starters vindt het hypotheekproces onduidelijk en stressvol", color: "#3094C6" },
+  { value: "2 min", label: "Is alles wat je nodig hebt om volledig inzicht te krijgen in jouw situatie", color: "#619C30" },
 ];
 
 export default function StatsSection() {
@@ -10,19 +10,18 @@ export default function StatsSection() {
       className="py-24 relative overflow-hidden"
       style={{ background: "linear-gradient(160deg, #0f1b3d 0%, #1a2a5e 100%)" }}
     >
-      {/* Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] rounded-full opacity-10 blur-3xl pointer-events-none" style={{ background: "#99248F" }} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: "#c96bc3" }}>
-            Nu is het moment
+            De woningmarkt in cijfers
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-            De cijfers spreken voor zich
+            Waarom voorbereiding telt
           </h2>
-          <p className="text-blue-200 opacity-70 max-w-2xl mx-auto">
-            Intussen staat die overwaarde stil en levert niets op. Het Welvarend Wonen Overwaardeplan is er juist voor deze situatie.
+          <p className="text-blue-200 max-w-2xl mx-auto" style={{ opacity: 0.7 }}>
+            De woningmarkt is competitief. Wie goed voorbereid is, wint.
           </p>
         </div>
 
@@ -35,20 +34,17 @@ export default function StatsSection() {
               <div className="text-5xl font-extrabold mb-4" style={{ color: stat.color }}>
                 {stat.value}
               </div>
-              <p className="text-blue-200 opacity-80 leading-relaxed">{stat.label}</p>
+              <p className="text-blue-200 leading-relaxed" style={{ opacity: 0.8 }}>{stat.label}</p>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-blue-200 opacity-70 mb-6">
-            Geen inkomensnorm, geen verhuisplicht, geen kosten uit eigen zak.
-          </p>
           <button
             className="px-10 py-4 rounded-2xl text-white font-bold text-lg transition-all hover:opacity-90 hover:shadow-2xl hover:-translate-y-0.5"
             style={{ backgroundColor: "#99248F" }}
           >
-            Doe de gratis berekening →
+            Bereken mijn hypotheek →
           </button>
         </div>
       </div>

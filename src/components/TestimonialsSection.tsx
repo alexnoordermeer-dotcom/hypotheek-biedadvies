@@ -1,20 +1,20 @@
 const testimonials = [
   {
-    quote: "We waren 68 en 70 en hadden veel vragen over onze overwaarde, en eerlijk gezegd ook flink wat twijfels. Alex nam de tijd om alles rustig uit te leggen, zonder druk en zonder haast. We begrijpen nu precies wat er kan, we hoeven ons huis niet te verlaten, en we voelen ons eindelijk gerust. Aanrader voor iedereen in dezelfde situatie.",
-    name: "Myra (68) & Bram (70)",
-    role: "klanten van Alex Noordermeer",
+    quote: "Als starter had ik geen idee wat ik kon lenen. Via dit hulpmiddel wist ik in 2 minuten mijn maximale hypotheek én wat ik maandelijks zou betalen. Daarna heb ik pas een afspraak gemaakt met Alex. Zo goed voorbereid het gesprek in gaan was echt fijn.",
+    name: "Sanne (28)",
+    role: "Starter, Rotterdam",
     color: "#99248F",
   },
   {
-    quote: "Mijn pensioen zit in mijn huis. Ik werkte jarenlang als zzp'er en bouwde nauwelijks pensioen op. Bij Welvarend Wonen vond ik transparante communicatie en betrouwbaarheid. Nu ontvang ik maandelijks een bedrag en kan ik genieten van mijn vrije tijd. Het is financieel heel rustig. Ik kan naar mijn broer in Valencia en genieten van mijn leven.",
-    name: "Paul Pelsser",
-    role: "klant via Welvarend Wonen",
+    quote: "We wilden doorstromen maar wisten niet hoeveel onze huidige woning waard was en of we de volgende stap konden zetten. De berekening gaf ons direct inzicht in onze overwaarde en wat we konden lenen. Binnen een week hadden we een bod uitgebracht.",
+    name: "Mark & Lisa (36 & 34)",
+    role: "Doorstromers, Den Haag",
     color: "#3094C6",
   },
   {
-    quote: "We wilden meer uit het leven halen zonder ons geliefde appartement te verlaten. Samen met onze kinderen namen we de tijd om alles te begrijpen. De persoonlijke benadering en openheid gaf vertrouwen. Nu hebben we de financiële ruimte om te genieten. Je wordt nergens in gepusht. Het proces gaat in jouw tempo. Dat gaf vertrouwen.",
-    name: "Anny & Berry van Gool",
-    role: "klanten via Welvarend Wonen",
+    quote: "Het biedadvies op basis van de Funda-analyse was goud waard. We wisten precies wat de woning waard was en wat een realistisch bod was. We hebben de woning gekregen zonder overbieden.",
+    name: "Thomas (31)",
+    role: "Starter, Dordrecht",
     color: "#619C30",
   },
 ];
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
             Ervaringen
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-            Wat klanten zeggen
+            Wat kopers zeggen
           </h2>
         </div>
 
@@ -38,8 +38,7 @@ export default function TestimonialsSection() {
               key={t.name}
               className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col"
             >
-              {/* Quote mark */}
-              <div className="text-5xl font-serif leading-none mb-4" style={{ color: t.color, opacity: 0.3 }}>
+              <div className="text-5xl font-serif leading-none mb-4" style={{ color: t.color, opacity: 0.25 }}>
                 "
               </div>
               <p className="text-gray-600 leading-relaxed flex-1 mb-6 italic">

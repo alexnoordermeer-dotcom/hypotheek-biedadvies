@@ -5,12 +5,11 @@ export default function AdvisorSection() {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: Image + card */}
+          {/* Left: image */}
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <img src="/assets/placeholder.svg" alt="placeholder" className="w-full h-full object-cover" />
             </div>
-            {/* Floating badge */}
             <div
               className="absolute -bottom-6 -right-6 rounded-2xl p-5 shadow-xl text-white"
               style={{ backgroundColor: "#99248F" }}
@@ -25,22 +24,21 @@ export default function AdvisorSection() {
             </div>
           </div>
 
-          {/* Right: Content */}
+          {/* Right: content */}
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: "#619C30" }}>
-              Hallo, ik ben
+              Jouw adviseur
             </p>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
               Alex Noordermeer
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Mijn naam is Alex Noordermeer. Ik ben financieel adviseur met 27 jaar ervaring en heb al meer dan 3.000 mensen geholpen met de grootste financiële beslissingen van hun leven. Ik werk door heel Zuid-Holland en omstreken — van Rotterdam en Dordrecht tot Den Haag en de eilanden.
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Ik ben financieel adviseur met 27 jaar ervaring en heb al meer dan 3.000 mensen geholpen bij de aankoop van hun woning — van starters die voor het eerst een hypotheek aanvragen tot doorstromers die hun overwaarde slim inzetten voor hun volgende stap.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Ik heb dit hulpmiddel gemaakt omdat ik elke week mensen spreek die al jarenlang met onzekerheid rondlopen over hun overwaarde. Met dit hulpmiddel kunt u in 5 minuten zien wat er in uw specifieke situatie indicatief mogelijk is — zonder kosten, zonder verplichtingen.
+              Dit hulpmiddel heb ik gemaakt zodat jij al vóór het eerste gesprek precies weet waar je aan toe bent. Geen verrassingen, geen jargon — gewoon duidelijke antwoorden op de vier vragen die elke koper heeft.
             </p>
 
-            {/* Contact info */}
             <div className="rounded-2xl p-6 space-y-3" style={{ backgroundColor: "#f8f4f8" }}>
               <div className="flex items-center gap-3 text-gray-700">
                 <MapPin size={16} style={{ color: "#99248F" }} />
@@ -61,7 +59,7 @@ export default function AdvisorSection() {
                 <a href="https://www.consumentenzaken.com" className="text-sm hover:underline">www.consumentenzaken.com</a>
               </div>
               <div className="pt-2 border-t border-purple-100">
-                <p className="text-xs text-gray-400">SEH-geregistreerd · WFT-gediplomeerd · AFM-nummer 12019426 · Kifid 300.013701</p>
+                <p className="text-xs text-gray-400">WFT-gediplomeerd · AFM-nummer 12019426 · Kifid 300.013701</p>
               </div>
             </div>
           </div>

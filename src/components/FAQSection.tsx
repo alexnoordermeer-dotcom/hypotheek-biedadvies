@@ -3,36 +3,36 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "Is dit een opeethypotheek?",
-    answer: "Nee. Het Welvarend Wonen Overwaardeplan is geen opeethypotheek. U verkoopt een deel van de toekomstige waardestijging van uw woning, maar u blijft eigenaar en u blijft wonen in uw eigen huis. Er is geen rente die oploopt.",
+    question: "Wat is het verschil tussen een starter en een doorstromer?",
+    answer: "Een starter koopt voor het eerste een woning en heeft geen eigen woning om te verkopen. Een doorstromer heeft al een koopwoning en verkoopt die om een nieuwe te kopen. Doorstromers kunnen hun overwaarde inzetten als eigen geld voor de volgende woning.",
   },
   {
-    question: "Wat blijft er over voor mijn kinderen?",
-    answer: "Dat hangt af van de gekozen looptijd en het uitkeringspercentage. In uw Persoonlijk Overzicht ziet u een erfenis-tijdlijn die precies laat zien wat er na 10, 15 en 20 jaar beschikbaar blijft voor uw erfgenamen.",
+    question: "Hoe wordt mijn maximale hypotheek berekend?",
+    answer: "Je maximale hypotheek wordt berekend op basis van je bruto jaarinkomen (en dat van een eventuele partner), de actuele toetsrente conform AFM-regeling en de Nibud 2026 normtabel. Lopende schulden (zoals een studieschuld of autolening) verlagen je maximale hypotheek.",
   },
   {
-    question: "Wat is het addertje?",
-    answer: "Er is geen verborgen addertje. Welvarend Wonen ontvangt bij verkoop of overlijden een deel van de woningwaarde. U ontvangt maandelijks een uitkering zolang u leeft. Alle voorwaarden worden transparant uitgelegd.",
+    question: "Wat is NHG en kom ik er voor in aanmerking?",
+    answer: "NHG staat voor Nationale Hypotheek Garantie. Het is een vangnet als je door onvoorziene omstandigheden je hypotheek niet meer kunt betalen. De NHG-grens in 2026 is €470.000. Als je woning onder deze grens valt, kom je mogelijk in aanmerking. NHG geeft je ook recht op een lagere rente.",
   },
   {
-    question: "Wie betaalt al die kosten?",
-    answer: "Welvarend Wonen financiert het volledige traject, inclusief taxatie (€600), notariskosten (€2.750) en advieskosten. U betaalt €0 uit eigen zak.",
+    question: "Wat is de startersvrijstelling?",
+    answer: "Starters tussen 18 en 35 jaar die een woning kopen onder €510.000 betalen geen overdrachtsbelasting (2%). Dit scheelt duizenden euro's aan kosten koper. De berekening houdt hier automatisch rekening mee.",
   },
   {
-    question: "Wat als ik 100 jaar word?",
-    answer: "U ontvangt uw maandelijkse uitkering levenslang — ook als u 100 jaar of ouder wordt. De looptijd in de berekening is een rekenkundige grens, niet een einddatum van uw uitkering.",
+    question: "Hoe werkt het biedadvies?",
+    answer: "Je plakt een Funda-link in het systeem. Op basis van de WOZ-waarde, verkoophistorie in de buurt en jouw maximale hypotheek krijg je een concreet biedadvies. Dit is indicatief — een aankoopmakelaar kan aanvullend advies geven.",
   },
   {
-    question: "Wat als Welvarend Wonen failliet gaat?",
-    answer: "Uw rechten zijn notarieel vastgelegd en beschermd. Bij een eventueel faillissement van Welvarend Wonen blijven uw rechten op de uitkering juridisch afdwingbaar.",
+    question: "Hoe bereken ik de waarde van mijn huidige woning als doorstromer?",
+    answer: "Op basis van de WOZ-waarde, recente verkoopprijzen in jouw buurt en de staat van je woning geeft het systeem een indicatieve woningwaarde. De overwaarde (woningwaarde minus resterende hypotheek) kun je inzetten als eigen geld voor je volgende woning.",
   },
   {
-    question: "Zijn de bedragen gegarandeerd?",
-    answer: "De bedragen in dit hulpmiddel zijn indicatief. Het definitieve bedrag wordt vastgesteld door Welvarend Wonen na taxatie en bouwkundige keuring. De indicatie geeft een betrouwbare schatting op basis van het officiële rekenmodel.",
+    question: "Is dit een financieel advies?",
+    answer: "Nee. Alle berekeningen zijn indicatief op basis van Nibud 2026 normen. Het is geen financieel advies. Voor een bindende hypotheekofferte heb je altijd een erkend hypotheekadviseur nodig. Alex Noordermeer staat klaar voor een gratis oriëntatiegesprek.",
   },
   {
-    question: "Moet ik meteen iets beslissen?",
-    answer: "Absoluut niet. Dit hulpmiddel is volledig vrijblijvend. U tekent niets en beslist zelf of en wanneer u een vervolgstap zet. Alex zet nooit druk.",
+    question: "Kost dit iets?",
+    answer: "Nee, het gebruik van dit hulpmiddel is volledig gratis. Je betaalt niets en je zit nergens aan vast.",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function FAQSection() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
             Veelgestelde vragen
           </h2>
-          <p className="text-gray-500">Staat uw vraag er niet tussen? Neem gerust contact op.</p>
+          <p className="text-gray-500">Staat je vraag er niet tussen? Neem gerust contact op met Alex.</p>
         </div>
 
         <div className="space-y-3">

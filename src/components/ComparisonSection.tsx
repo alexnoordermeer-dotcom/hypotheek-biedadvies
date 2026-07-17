@@ -2,24 +2,24 @@ import { X, Check } from "lucide-react";
 
 const rows = [
   {
-    old: "Banken afbellen en afgewezen worden vanwege een te laag pensioeninkomen",
-    new: "Geen inkomensnorm — rekent met uw overwaarde, niet met uw inkomen",
+    old: "Weken wachten op een afspraak bij de bank voordat je weet wat je kunt lenen",
+    new: "In 2 minuten je maximale hypotheek berekenen — zonder afspraak",
   },
   {
-    old: "Weken van zoeken, wachten en teleurstelling",
-    new: "In 5 minuten uw persoonlijke overzicht",
+    old: "Onduidelijk wat je maandelijks betaalt bij verschillende rentes",
+    new: "6 rentescenarios naast elkaar, inclusief netto maandlast",
   },
   {
-    old: "Taxatiekosten (€600), notariskosten (€2.750) en advieskosten — oplopend tot €3.700+",
-    new: "€0 uit eigen zak — Welvarend Wonen financiert het volledige traject",
+    old: "Blind bieden op een woning zonder te weten of je het kunt betalen",
+    new: "Concreet biedadvies op basis van jouw budget én de WOZ-waarde",
   },
   {
-    old: "Jargon als 'opeethypotheek' en 'verzilverhypotheek' — onduidelijk en intimiderend",
-    new: "Zeven eenvoudige vragen, direct een concreet getal",
+    old: "Als doorstromer niet weten hoeveel overwaarde je hebt voor je volgende woning",
+    new: "Indicatieve woningwaarde en overwaarde direct inzichtelijk",
   },
   {
-    old: "Eerst een adviseur betalen voordat u weet of u überhaupt in aanmerking komt",
-    new: "Kosteloos uw situatie doorrekenen — dán pas het gesprek",
+    old: "Adviseur betalen voor een eerste oriëntatie",
+    new: "Volledig gratis inzicht — dán pas het gesprek met een adviseur",
   },
 ];
 
@@ -28,20 +28,22 @@ export default function ComparisonSection() {
     <section className="py-24 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
+          <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: "#3094C6" }}>
+            Vergelijk
+          </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
             De oude manier vs.{" "}
-            <span style={{ color: "#99248F" }}>Uw Huis Werkt Voor U</span>
+            <span style={{ color: "#99248F" }}>Consumentenzaken</span>
           </h2>
         </div>
 
         <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-100">
-          {/* Header */}
           <div className="grid grid-cols-2">
             <div className="p-5 text-center font-bold text-gray-700 bg-gray-50 border-b border-r border-gray-200">
               ❌ De Oude Manier
             </div>
             <div className="p-5 text-center font-bold text-white border-b" style={{ backgroundColor: "#99248F" }}>
-              ✅ Met Uw Huis Werkt Voor U
+              ✅ Met Consumentenzaken
             </div>
           </div>
 

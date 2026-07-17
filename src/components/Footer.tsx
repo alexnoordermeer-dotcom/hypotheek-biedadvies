@@ -19,19 +19,24 @@ export default function Footer() {
                 <span className="text-xs italic opacity-60">Zonder stress, meer cash!</span>
               </div>
             </div>
-            <p className="text-blue-200 opacity-60 text-sm leading-relaxed">
+            <p className="text-blue-200 text-sm leading-relaxed" style={{ opacity: 0.6 }}>
               Indicatieve berekening op basis van Nibud 2026 — geen financieel advies. Raadpleeg altijd een erkend hypotheekadviseur voor bindende uitspraken.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-widest opacity-60">Menu</h4>
+            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-widest" style={{ opacity: 0.6 }}>Menu</h4>
             <ul className="space-y-2">
-              {["Hoe het werkt", "Wat u krijgt", "FAQ", "Contact"].map((item) => (
-                <li key={item}>
-                  <a href={`#${item.toLowerCase().replace(/ /g, "-")}`} className="text-blue-200 opacity-70 hover:opacity-100 text-sm transition-opacity">
-                    {item}
+              {[
+                { label: "Hoe het werkt", href: "#hoe-het-werkt" },
+                { label: "Tools", href: "#tools" },
+                { label: "FAQ", href: "#faq" },
+                { label: "Contact", href: "#contact" },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a href={item.href} className="text-blue-200 text-sm transition-opacity hover:opacity-100" style={{ opacity: 0.7 }}>
+                    {item.label}
                   </a>
                 </li>
               ))}
@@ -40,27 +45,27 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-widest opacity-60">Contact</h4>
+            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-widest" style={{ opacity: 0.6 }}>Contact</h4>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <MapPin size={15} className="mt-0.5 flex-shrink-0 opacity-60" style={{ color: "#99248F" }} />
-                <span className="text-blue-200 opacity-70 text-sm">Warmoezenierstraat 24, 3231 BR Brielle</span>
+                <MapPin size={15} className="mt-0.5 flex-shrink-0" style={{ color: "#99248F", opacity: 0.8 }} />
+                <span className="text-blue-200 text-sm" style={{ opacity: 0.7 }}>Warmoezenierstraat 24, 3231 BR Brielle</span>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size={15} className="flex-shrink-0 opacity-60" style={{ color: "#3094C6" }} />
-                <a href="tel:+31181356255" className="text-blue-200 opacity-70 hover:opacity-100 text-sm transition-opacity">0181-356255</a>
+                <Phone size={15} style={{ color: "#3094C6", opacity: 0.8 }} />
+                <a href="tel:+31181356255" className="text-blue-200 text-sm hover:opacity-100 transition-opacity" style={{ opacity: 0.7 }}>0181-356255</a>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size={15} className="flex-shrink-0 opacity-60" style={{ color: "#3094C6" }} />
-                <a href="tel:+31612826368" className="text-blue-200 opacity-70 hover:opacity-100 text-sm transition-opacity">06-12826368</a>
+                <Phone size={15} style={{ color: "#3094C6", opacity: 0.8 }} />
+                <a href="tel:+31612826368" className="text-blue-200 text-sm hover:opacity-100 transition-opacity" style={{ opacity: 0.7 }}>06-12826368</a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail size={15} className="flex-shrink-0 opacity-60" style={{ color: "#619C30" }} />
-                <a href="mailto:alex@consumentenzaken.com" className="text-blue-200 opacity-70 hover:opacity-100 text-sm transition-opacity">alex@consumentenzaken.com</a>
+                <Mail size={15} style={{ color: "#619C30", opacity: 0.8 }} />
+                <a href="mailto:alex@consumentenzaken.com" className="text-blue-200 text-sm hover:opacity-100 transition-opacity" style={{ opacity: 0.7 }}>alex@consumentenzaken.com</a>
               </div>
               <div className="flex items-center gap-3">
-                <Globe size={15} className="flex-shrink-0 opacity-60" style={{ color: "#99248F" }} />
-                <a href="https://www.consumentenzaken.com" className="text-blue-200 opacity-70 hover:opacity-100 text-sm transition-opacity">www.consumentenzaken.com</a>
+                <Globe size={15} style={{ color: "#99248F", opacity: 0.8 }} />
+                <a href="https://www.consumentenzaken.com" className="text-blue-200 text-sm hover:opacity-100 transition-opacity" style={{ opacity: 0.7 }}>www.consumentenzaken.com</a>
               </div>
             </div>
           </div>
@@ -68,20 +73,13 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-blue-200 opacity-50 text-xs">
-            © 2026 Consumentenzaken · KVK 59255838 · BTW NL002015763B19 · AFM 12019426 · Kifid 300.013701
+          <p className="text-blue-200 text-xs" style={{ opacity: 0.5 }}>
+            © 2026 Consumentenzaken · KVK 59255838 · AFM 12019426 · Kifid 300.013701
           </p>
           <div className="flex gap-4">
-            <a href="#" className="text-blue-200 opacity-50 hover:opacity-80 text-xs transition-opacity">Privacyverklaring</a>
-            <a href="#" className="text-blue-200 opacity-50 hover:opacity-80 text-xs transition-opacity">Algemene voorwaarden</a>
+            <a href="#" className="text-blue-200 text-xs hover:opacity-80 transition-opacity" style={{ opacity: 0.5 }}>Privacyverklaring</a>
+            <a href="#" className="text-blue-200 text-xs hover:opacity-80 transition-opacity" style={{ opacity: 0.5 }}>Algemene voorwaarden</a>
           </div>
-        </div>
-
-        {/* Disclaimer */}
-        <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10">
-          <p className="text-blue-200 opacity-40 text-xs leading-relaxed">
-            Disclaimer: Alle indicatieve bedragen in dit hulpmiddel zijn schattingen op basis van het Welvarend Wonen rekenmodel. Het definitieve bedrag wordt vastgesteld door Welvarend Wonen na taxatie en bouwkundige keuring. Dit hulpmiddel is geen financieel advies. Alex Noordermeer is SEH-geregistreerd financieel adviseur en werkzaam onder AFM-vergunning van VP Wonen Spijkenisse (AFM 12019426).
-          </p>
         </div>
       </div>
     </footer>
