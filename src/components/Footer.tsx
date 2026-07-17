@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Globe, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Mail, Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -19,19 +19,9 @@ export default function Footer() {
                 <span className="text-xs italic opacity-60">Zonder stress, meer cash!</span>
               </div>
             </div>
-            <p className="text-blue-200 text-sm leading-relaxed mb-4" style={{ opacity: 0.6 }}>
+            <p className="text-blue-200 text-sm leading-relaxed" style={{ opacity: 0.6 }}>
               Indicatieve berekening op basis van Nibud 2026 — geen financieel advies. Raadpleeg altijd een erkend hypotheekadviseur voor bindende uitspraken.
             </p>
-            <a
-              href="https://saldo.biz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-100"
-              style={{ color: "#c96bc3", opacity: 0.8 }}
-            >
-              <ExternalLink size={13} />
-              Saldo.biz — hypotheekadvies op maat
-            </a>
           </div>
 
           {/* Navigation */}

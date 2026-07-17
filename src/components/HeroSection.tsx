@@ -69,14 +69,9 @@ export default function HeroSection() {
           >
             Bereken & krijg biedadvies →
           </button>
-          <a
-            href="https://saldo.biz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-9 py-4 rounded-2xl text-white font-bold text-lg border border-white/20 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
-          >
-            Liever persoonlijk advies? Saldo.biz →
-          </a>
+          <button className="px-9 py-4 rounded-2xl text-white font-bold text-lg border border-white/20 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all">
+            Al een account? Log in
+          </button>
         </div>
 
         {/* Trust line */}
