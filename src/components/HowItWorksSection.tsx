@@ -7,14 +7,14 @@ const steps = [
   },
   {
     number: "2",
-    title: "Zie je resultaat direct",
-    description: "Maximale hypotheek, maandlasten per rentescenario, NHG-check en energiebonus — in seconden.",
+    title: "Bereken & zie je resultaat",
+    description: "Maximale hypotheek, maandlasten per rentescenario, NHG-check en energiebonus — in seconden. Alles samengevat in één overzicht.",
     color: "#3094C6",
   },
   {
     number: "3",
-    title: "Doe een onderbouwd bod",
-    description: "Analyseer je droomwoning via Funda, vergelijk met je budget en ga goed voorbereid naar de bezichtiging.",
+    title: "Krijg biedadvies",
+    description: "Plak een Funda-link en combineer je maximale hypotheek met je droomwoning. Direct een onderbouwd bod dat past bij jouw budget.",
     color: "#619C30",
   },
 ];

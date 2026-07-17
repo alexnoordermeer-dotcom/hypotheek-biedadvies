@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import CombinedCalculator from "@/components/CombinedCalculator";
 import HowItWorksSection from "@/components/HowItWorksSection";
-import ResultPreviewSection from "@/components/ResultPreviewSection";
 import AdvisorSection from "@/components/AdvisorSection";
 import WhatYouGetSection from "@/components/WhatYouGetSection";
 import ComparisonSection from "@/components/ComparisonSection";
@@ -18,8 +18,8 @@ export default function Index() {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
+      <CombinedCalculator />
       <HowItWorksSection />
-      <ResultPreviewSection />
       <AdvisorSection />
       <WhatYouGetSection />
       <ComparisonSection />

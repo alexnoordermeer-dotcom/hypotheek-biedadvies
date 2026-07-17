@@ -24,6 +24,7 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
+            <a href="#calculator" className="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Bereken</a>
             <a href="#hoe-het-werkt" className="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Hoe het werkt</a>
             <a href="#tools" className="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Tools</a>
             <a href="#faq" className="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">FAQ</a>
@@ -50,6 +51,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-4">
+          <a href="#calculator" className="text-gray-700 font-medium" onClick={() => setOpen(false)}>Bereken</a>
           <a href="#hoe-het-werkt" className="text-gray-700 font-medium" onClick={() => setOpen(false)}>Hoe het werkt</a>
           <a href="#tools" className="text-gray-700 font-medium" onClick={() => setOpen(false)}>Tools</a>
           <a href="#faq" className="text-gray-700 font-medium" onClick={() => setOpen(false)}>FAQ</a>

@@ -22,10 +22,10 @@ export default function CTASection() {
           Start vandaag
         </p>
         <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
-          Bereken jouw maximale hypotheek
+          Bereken jouw hypotheek & krijg direct biedadvies
         </h2>
         <p className="text-blue-200 text-lg mb-10 max-w-2xl mx-auto" style={{ opacity: 0.8 }}>
-          In 2 minuten weet je wat je kunt lenen, wat je maandelijks betaalt en of NHG voor jou geldt.
+          In 2 minuten weet je wat je kunt lenen én wat je kunt bieden. Combineer je financiële situatie met jouw droomwoning voor direct inzicht.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-3 max-w-2xl mx-auto mb-10 text-left">

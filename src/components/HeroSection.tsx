@@ -33,14 +33,14 @@ export default function HeroSection() {
 
         {/* Headline */}
         <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-[1.05] tracking-tight">
-          Hoeveel hypotheek
+          Van hypotheekberekening
           <br />
-          <span style={{ color: "#c96bc3" }}>kun jij krijgen?</span>
+          <span style={{ color: "#c96bc3" }}>tot biedadvies in één tool</span>
         </h1>
 
         {/* Sub-headline */}
         <p className="text-lg md:text-xl text-blue-100 max-w-2xl leading-relaxed" style={{ opacity: 0.8 }}>
-          Bereken je maximale hypotheek, je maandlasten en je ideale bod — op basis van officiële Nibud 2026 normen. In 2 minuten, gratis, zonder adviseur.
+          Bereken je maximale hypotheek én krijg direct een onderbouwd biedadvies voor jouw droomwoning — op basis van officiële Nibud 2026 normen. In 2 minuten, gratis, zonder adviseur.
         </p>
 
         {/* 4 key topics pills */}
@@ -67,7 +67,7 @@ export default function HeroSection() {
             className="px-9 py-4 rounded-2xl text-white font-bold text-lg transition-all hover:opacity-90 hover:shadow-2xl hover:-translate-y-0.5"
             style={{ backgroundColor: "#99248F" }}
           >
-            Bereken mijn hypotheek →
+            Bereken & krijg biedadvies →
           </button>
           <button className="px-9 py-4 rounded-2xl text-white font-bold text-lg border border-white/20 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all">
             Al een account? Log in
